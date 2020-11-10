@@ -1,0 +1,24 @@
+﻿<Window x:Class="Гостиница.AddNomerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Гостиница"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Добавление клиента" Height="460" Width="400">
+    <Grid Background="#6200EE">
+        <Border Padding="30" Margin="20" CornerRadius="60" Background="#EDE7F6">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="60" ShadowDepth="0" Color="#3700B3"/>
+            </Border.Effect>
+            <StackPanel>
+                <TextBox x:Name="NazvBox" materialDesign:HintAssist.Hint="Название номера" FontSize="16" Margin="0 0 0 20" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <TextBox x:Name="VmestBox" materialDesign:HintAssist.Hint="Вместимость" FontSize="16" Margin="0 0 0 20" Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                <TextBox x:Name="KomfortBox" materialDesign:HintAssist.Hint="Комфортность" FontSize="16" Margin="0 0 0 20" Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                <TextBox x:Name="Money" materialDesign:HintAssist.Hint="Цена" FontSize="16" Margin="0 0 0 30" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <Button x:Name="AddButton" Background="#3700B3" Click="AddButton_Click" Content="Добавить" BorderBrush="#FF3700B3" />
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

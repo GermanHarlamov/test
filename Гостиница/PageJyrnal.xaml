@@ -1,0 +1,32 @@
+﻿<Page x:Class="Гостиница.PageJyrnal"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Гостиница"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Журнал">
+
+    <Grid>
+        <StackPanel Height="429">
+            <TextBlock Text="Журнал" FontSize="30" HorizontalAlignment="Center" Margin="0 0 0 20"/>
+            <StackPanel Margin="0 0 0 20">
+                <TextBlock Text="Сортировка по типу записи:" FontSize="20" Margin="10 0 0 10" />
+                <ComboBox x:Name="Sort" HorizontalAlignment="Left" Margin="10 0 0 0" Width="100" SelectionChanged="Sort_SelectionChanged"/>
+            </StackPanel>
+
+                <DataGrid x:Name="DataGridJyrnal" Margin="10 0 10 0" AutoGenerateColumns="False" ColumnWidth="*" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ИДЗаписи" Binding="{Binding ИДЗаписи}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Тип Записи" Binding="{Binding ТипЗаписи}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Дата" Binding="{Binding Дата}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Фамилия Клиента" Binding="{Binding Фамилия}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Имя Клиента" Binding="{Binding Имя}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Отчество Клиента" Binding="{Binding Отчество}"></DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+    </Grid>
+</Page>

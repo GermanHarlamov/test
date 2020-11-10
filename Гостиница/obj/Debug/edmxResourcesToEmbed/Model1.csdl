@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ГостиницаModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Журнал">
+    <Key>
+      <PropertyRef Name="ИДЗаписи" />
+    </Key>
+    <Property Name="ИДЗаписи" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ТипЗаписи" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Дата" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Фамилия" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Имя" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Отчество" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Клиенты">
+    <Key>
+      <PropertyRef Name="ИДКлиента" />
+    </Key>
+    <Property Name="ИДКлиента" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Фамилия" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Имя" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Отчество" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Комментарий" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ИДНомера" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Номера" Relationship="Self.FK_Клиенты_Номера" FromRole="Клиенты" ToRole="Номера" />
+  </EntityType>
+  <EntityType Name="Номера">
+    <Key>
+      <PropertyRef Name="ИДНомера" />
+    </Key>
+    <Property Name="ИДНомера" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="НазваниеНомера" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Вместимость" Type="Int32" Nullable="false" />
+    <Property Name="Комфортность" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Цена" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <NavigationProperty Name="Клиенты" Relationship="Self.FK_Клиенты_Номера" FromRole="Номера" ToRole="Клиенты" />
+  </EntityType>
+  <EntityType Name="Пользователи">
+    <Key>
+      <PropertyRef Name="ИДПользователя" />
+    </Key>
+    <Property Name="ИДПользователя" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Логин" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Пароль" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Роль" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Клиенты_Номера">
+    <End Role="Номера" Type="Self.Номера" Multiplicity="1" />
+    <End Role="Клиенты" Type="Self.Клиенты" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Номера">
+        <PropertyRef Name="ИДНомера" />
+      </Principal>
+      <Dependent Role="Клиенты">
+        <PropertyRef Name="ИДНомера" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ГостиницаEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Журнал" EntityType="Self.Журнал" />
+    <EntitySet Name="Клиенты" EntityType="Self.Клиенты" />
+    <EntitySet Name="Номера" EntityType="Self.Номера" />
+    <EntitySet Name="Пользователи" EntityType="Self.Пользователи" />
+    <AssociationSet Name="FK_Клиенты_Номера" Association="Self.FK_Клиенты_Номера">
+      <End Role="Номера" EntitySet="Номера" />
+      <End Role="Клиенты" EntitySet="Клиенты" />
+    </AssociationSet>
+    <EntitySet Name="sysdiagrams" EntityType="ГостиницаModel.sysdiagrams" />
+  </EntityContainer>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+</Schema>

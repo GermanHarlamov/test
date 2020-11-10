@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище ГостиницаModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Журнал">
+    <Key>
+      <PropertyRef Name="ИДЗаписи" />
+    </Key>
+    <Property Name="ИДЗаписи" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ТипЗаписи" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Дата" Type="date" Nullable="false" />
+    <Property Name="Фамилия" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Имя" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Отчество" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Клиенты">
+    <Key>
+      <PropertyRef Name="ИДКлиента" />
+    </Key>
+    <Property Name="ИДКлиента" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Фамилия" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Имя" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Отчество" Type="varchar" MaxLength="50" />
+    <Property Name="Комментарий" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ИДНомера" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Номера">
+    <Key>
+      <PropertyRef Name="ИДНомера" />
+    </Key>
+    <Property Name="ИДНомера" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="НазваниеНомера" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Вместимость" Type="int" Nullable="false" />
+    <Property Name="Комфортность" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Цена" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Пользователи">
+    <Key>
+      <PropertyRef Name="ИДПользователя" />
+    </Key>
+    <Property Name="ИДПользователя" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Логин" Type="varchar" MaxLength="50" />
+    <Property Name="Пароль" Type="varchar" MaxLength="50" />
+    <Property Name="Роль" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Клиенты_Номера">
+    <End Role="Номера" Type="Self.Номера" Multiplicity="1" />
+    <End Role="Клиенты" Type="Self.Клиенты" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Номера">
+        <PropertyRef Name="ИДНомера" />
+      </Principal>
+      <Dependent Role="Клиенты">
+        <PropertyRef Name="ИДНомера" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище ГостиницаModelContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Журнал" EntityType="Self.Журнал" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Клиенты" EntityType="Self.Клиенты" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Номера" EntityType="Self.Номера" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Пользователи" EntityType="Self.Пользователи" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Клиенты_Номера" Association="Self.FK_Клиенты_Номера">
+      <End Role="Номера" EntitySet="Номера" />
+      <End Role="Клиенты" EntitySet="Клиенты" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

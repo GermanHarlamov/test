@@ -1,0 +1,120 @@
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\Гостиница.csprojAssemblyReference.cache
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\MainWindow.g.cs
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\App.g.cs
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\Гостиница_MarkupCompile.cache
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\Гостиница_MarkupCompile.lref
+C:\Users\student\source\repos\Гостиница\Гостиница\bin\Debug\Гостиница.exe.config
+C:\Users\student\source\repos\Гостиница\Гостиница\bin\Debug\Гостиница.exe
+C:\Users\student\source\repos\Гостиница\Гостиница\bin\Debug\Гостиница.pdb
+C:\Users\student\source\repos\Гостиница\Гостиница\bin\Debug\EntityFramework.dll
+C:\Users\student\source\repos\Гостиница\Гостиница\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\student\source\repos\Гостиница\Гостиница\bin\Debug\MaterialDesignColors.dll
+C:\Users\student\source\repos\Гостиница\Гостиница\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\student\source\repos\Гостиница\Гостиница\bin\Debug\EntityFramework.xml
+C:\Users\student\source\repos\Гостиница\Гостиница\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\student\source\repos\Гостиница\Гостиница\bin\Debug\MaterialDesignColors.pdb
+C:\Users\student\source\repos\Гостиница\Гостиница\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\student\source\repos\Гостиница\Гостиница\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\student\source\repos\Гостиница\Гостиница\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\AdminPanel.g.cs
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\Гостиница_Content.g.cs
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\App.baml
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\AdminPanel.baml
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\MainWindow.baml
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\Гостиница.g.resources
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\Гостиница.Properties.Resources.resources
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\Гостиница.csproj.GenerateResource.cache
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\Гостиница.csproj.CoreCompileInputs.cache
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\Гостиница.csproj.CopyComplete
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\Гостиница.exe
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\Гостиница.pdb
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\PageClient.g.cs
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\PageJyrnal.g.cs
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\PageNomer.g.cs
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\PageClient.baml
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\PageJyrnal.baml
+C:\Users\student\source\repos\Гостиница\Гостиница\obj\Debug\PageNomer.baml
+E:\3 курс\Гостиница\Гостиница\obj\Debug\Гостиница.csprojAssemblyReference.cache
+E:\3 курс\Гостиница\Гостиница\obj\Debug\AdminPanel.g.cs
+E:\3 курс\Гостиница\Гостиница\obj\Debug\GuestWindow.g.cs
+E:\3 курс\Гостиница\Гостиница\obj\Debug\MainWindow.g.cs
+E:\3 курс\Гостиница\Гостиница\obj\Debug\PageClient.g.cs
+E:\3 курс\Гостиница\Гостиница\obj\Debug\PageJyrnal.g.cs
+E:\3 курс\Гостиница\Гостиница\obj\Debug\PageNomer.g.cs
+E:\3 курс\Гостиница\Гостиница\obj\Debug\App.g.cs
+E:\3 курс\Гостиница\Гостиница\obj\Debug\Гостиница_MarkupCompile.cache
+E:\3 курс\Гостиница\Гостиница\obj\Debug\Гостиница_MarkupCompile.lref
+E:\3 курс\Гостиница\Гостиница\obj\Debug\Гостиница.exe
+E:\3 курс\Гостиница\Гостиница\obj\Debug\Гостиница.pdb
+E:\3 курс\Гостиница\Гостиница\bin\Debug\Гостиница.exe.config
+E:\3 курс\Гостиница\Гостиница\bin\Debug\Гостиница.exe
+E:\3 курс\Гостиница\Гостиница\bin\Debug\Гостиница.pdb
+E:\3 курс\Гостиница\Гостиница\bin\Debug\EntityFramework.dll
+E:\3 курс\Гостиница\Гостиница\bin\Debug\EntityFramework.SqlServer.dll
+E:\3 курс\Гостиница\Гостиница\bin\Debug\MaterialDesignColors.dll
+E:\3 курс\Гостиница\Гостиница\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\3 курс\Гостиница\Гостиница\bin\Debug\EntityFramework.xml
+E:\3 курс\Гостиница\Гостиница\bin\Debug\EntityFramework.SqlServer.xml
+E:\3 курс\Гостиница\Гостиница\bin\Debug\MaterialDesignColors.pdb
+E:\3 курс\Гостиница\Гостиница\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\3 курс\Гостиница\Гостиница\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\3 курс\Гостиница\Гостиница\bin\Debug\ru\EntityFramework.resources.dll
+E:\3 курс\Гостиница\Гостиница\obj\Debug\Гостиница_Content.g.cs
+E:\3 курс\Гостиница\Гостиница\obj\Debug\App.baml
+E:\3 курс\Гостиница\Гостиница\obj\Debug\AdminPanel.baml
+E:\3 курс\Гостиница\Гостиница\obj\Debug\GuestWindow.baml
+E:\3 курс\Гостиница\Гостиница\obj\Debug\MainWindow.baml
+E:\3 курс\Гостиница\Гостиница\obj\Debug\PageClient.baml
+E:\3 курс\Гостиница\Гостиница\obj\Debug\PageJyrnal.baml
+E:\3 курс\Гостиница\Гостиница\obj\Debug\PageNomer.baml
+E:\3 курс\Гостиница\Гостиница\obj\Debug\Гостиница.g.resources
+E:\3 курс\Гостиница\Гостиница\obj\Debug\Гостиница.Properties.Resources.resources
+E:\3 курс\Гостиница\Гостиница\obj\Debug\Гостиница.csproj.GenerateResource.cache
+E:\3 курс\Гостиница\Гостиница\obj\Debug\Гостиница.csproj.CoreCompileInputs.cache
+E:\3 курс\Гостиница\Гостиница\obj\Debug\Гостиница.csproj.CopyComplete
+E:\3 курс\Гостиница\Гостиница\obj\Debug\AddClientWindow.g.cs
+E:\3 курс\Гостиница\Гостиница\obj\Debug\AddClientWindow.baml
+E:\3 курс\Гостиница\Гостиница\obj\Debug\AddNomerWindow.g.cs
+E:\3 курс\Гостиница\Гостиница\obj\Debug\AddNomerWindow.baml
+C:\Users\student\Desktop\Гостиница\Гостиница\bin\Debug\Гостиница.exe.config
+C:\Users\student\Desktop\Гостиница\Гостиница\bin\Debug\Гостиница.exe
+C:\Users\student\Desktop\Гостиница\Гостиница\bin\Debug\Гостиница.pdb
+C:\Users\student\Desktop\Гостиница\Гостиница\bin\Debug\EntityFramework.dll
+C:\Users\student\Desktop\Гостиница\Гостиница\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\student\Desktop\Гостиница\Гостиница\bin\Debug\MaterialDesignColors.dll
+C:\Users\student\Desktop\Гостиница\Гостиница\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\student\Desktop\Гостиница\Гостиница\bin\Debug\EntityFramework.xml
+C:\Users\student\Desktop\Гостиница\Гостиница\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\student\Desktop\Гостиница\Гостиница\bin\Debug\MaterialDesignColors.pdb
+C:\Users\student\Desktop\Гостиница\Гостиница\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\student\Desktop\Гостиница\Гостиница\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\student\Desktop\Гостиница\Гостиница\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\Гостиница.csprojAssemblyReference.cache
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\AddClientWindow.g.cs
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\AddNomerWindow.g.cs
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\AdminPanel.g.cs
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\GuestWindow.g.cs
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\MainWindow.g.cs
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\PageClient.g.cs
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\PageJyrnal.g.cs
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\PageNomer.g.cs
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\App.g.cs
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\Гостиница_Content.g.cs
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\Гостиница_MarkupCompile.cache
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\Гостиница_MarkupCompile.lref
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\App.baml
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\AddClientWindow.baml
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\AddNomerWindow.baml
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\AdminPanel.baml
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\GuestWindow.baml
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\MainWindow.baml
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\PageClient.baml
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\PageJyrnal.baml
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\PageNomer.baml
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\Гостиница.g.resources
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\Гостиница.Properties.Resources.resources
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\Гостиница.csproj.GenerateResource.cache
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\Гостиница.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\Гостиница.csproj.CopyComplete
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\Гостиница.exe
+C:\Users\student\Desktop\Гостиница\Гостиница\obj\Debug\Гостиница.pdb
